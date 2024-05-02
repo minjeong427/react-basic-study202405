@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import ExpenseItem from './components/ExpenseItem';
 import Expenses from './components/Expenses';
+import Hello from './hello';
 
 
 function App() {
@@ -29,6 +30,13 @@ function App() {
   return (
     <>
         <Expenses items={expenses} />
+        <Hello>
+          <ul>
+            <li>수박</li>
+            <li>포도</li>
+            <li>복숭아</li>
+          </ul>
+        </Hello>
     </>
   );
 }
