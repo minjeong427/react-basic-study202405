@@ -23,13 +23,7 @@ import styles from './Button.module.css';
 // }
 // `;
 
-const Button = ({
-  type,
-  onClick,
-  children,
-  className,
-  disabled,
-}) => {
+const Button = ({ type, onClick, children, className, disabled }) => {
   return (
     <button
       type={type}
