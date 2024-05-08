@@ -18,7 +18,7 @@ const DUMMY_MEALS = [
   },
   {
     id: 'm3',
-    name: '띠드버거',
+    name: '치즈버거',
     description: '띠드버거 사주세요~~~',
     price: 12000,
   },
